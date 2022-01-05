@@ -1,0 +1,409 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+#header{
+    background-color: #696c72;
+    padding: 0 50px;
+    height: 104px;
+    line-height: 104px;
+    opacity: 0.7;
+    width: 100%;
+    
+
+    
+}
+
+#nav{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    letter-spacing: 2px;
+    
+}
+.header_list_item{
+    /* list-style-type: none; */
+   
+    font-family: sans-serif;
+    font-size: 14px;
+   
+}
+.header_list_item>a{
+    padding: 25px 15px;
+    text-decoration: none;
+    color: #fff;
+}
+.header_list_item>a>img{
+    height: 38px;
+    position: relative;
+    top: 10px;
+
+}
+.header_hom{
+    margin-left: 15px;
+}
+.Like_bottom{
+    position: relative;
+    z-index: 2;
+}
+.Like_bottom::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 5px;
+    left: 0;
+    bottom: 5px;
+    background-color: #ba71da;
+    z-index: -1;
+
+}
+.header_book{
+    margin-left: 25px;
+    padding-top: 12px;
+    padding-bottom: 10px;
+    background-color: #ba71da;
+    border-radius: 30px;
+    text-decoration: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 14px;
+   
+}
+.ti-align-justify{
+    margin-left: 95px;
+    font-size: 27px;
+    padding: 0px 10px;
+    color: #b5b1b4;
+    cursor: pointer;
+}
+
+
+.heder_ipat{
+    display: none;
+}
+
+/* Slider----------------------------- */
+#slider{
+   margin-top: -104px;
+   
+}
+.slider_img{
+    background-image: url('/AppImg/parallax-2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    text-align: center;
+    background-position-x: -175px;
+    background-position-y: -221px;
+    background-size: 138%;
+
+}
+.slider_list_img{
+    padding-top: 270px;
+    padding-bottom: 200px;
+}
+.slider_list_img>h1{
+    font-size: 50px;
+    height: 50px;
+    margin-bottom: 35px;
+    color: #fff;
+}
+.slider_list_img>input{
+    width: 33.3333%;
+    height: 43px;
+    border-radius: 30px;
+    border: none;
+    color: rgb(153, 149, 149);
+    outline:none;
+    padding: 0 30px;
+    font-size: 16px;
+    margin-bottom: 55px;
+}
+.slider_list_img>h6{
+    font-size: 20px;
+    letter-spacing: 4px;
+    margin-bottom: 65px;
+    color: #fff;
+}
+
+.slider_time{
+    display: flex;
+    justify-content: center;
+    
+}
+.slider_time>div{
+    background-color: #000;
+    width: 112px;
+    height: 105px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    opacity: 0.5;
+}
+.slider_time>div>a>img{
+    width: 40px;
+}
+.slider_time>div>a>span{
+    display: block;
+}
+
+#container{
+    height: 2000px;
+}
+
+/* /con tai ner day  */
+.git_no1{
+    width: 100%;
+    margin: 0 auto;
+   margin: 30px 0;
+    background-color:#fff;
+    padding: 0 30px;
+    
+}
+.row_1{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.colum1{
+    width: calc(33.33334% - 30px);
+    margin-left: 15px;
+    margin-right: 15px;
+    position: relative;
+    margin-bottom: 10px;
+
+}
+.colum1>img{
+    width: 100%;
+    height: 100%;
+}
+.aloalo{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgb(0, 204, 255);
+    opacity: 0;
+    transition: ease 1s;
+     DISPLAY: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+}
+.aloalo_1{
+    /* DISPLAY: flex;
+    align-items: center;
+    justify-content: center; */
+    /* text-align: center; */
+}
+.colum1:hover .aloalo{  
+    opacity: 1;
+    
+}
+
+
+.git_no2{
+    background-image: url(./AppImg/CT_No1.jpg);
+    background-repeat: no-repeat;
+    background-position:center ;
+    height: 250px;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding: 0 80px;
+   
+}
+.text_git{
+    font-size: 25px;
+    letter-spacing: -1px;
+    font-family: sans-serif;
+    color: aliceblue;
+    font-weight: bold;
+}
+.check_git{
+    border-radius: 30px;
+    border: none;
+    width: 200px;
+  
+    height: 44px;
+    color: crimson;
+    letter-spacing: 2px;
+    padding: 0 10px;
+}
+.text_git-bottom{
+    position: relative;
+    z-index: 5;
+}
+.text_git-bottom::after{
+    position: absolute;
+    content: "";
+    bottom: 5px;
+    left: 0;
+    width: 100%;
+    height: 5px;
+    background-color: #ec636e;
+    z-index: -2;
+}
+
+/* ========================= */
+
+.colum_4{
+    width:33.33334% ;
+    font-family: sans-serif;
+    padding-left: 20px;
+    padding-right: 35px;
+}
+.navbar_container>p{
+    font-size: 14px;
+    letter-spacing: 3px;
+    color: #9a9a9a;
+}
+.navbar_container>h1{
+    letter-spacing: -1px;
+    font-family: system-ui;
+    padding: 10px 0;
+    font-size: 36px;
+}
+.navbar_container>h1>span{
+    position: relative;
+    z-index: 555;
+}
+.navbar_container>h1>span::after{
+    position: absolute;
+    left: 0;
+    bottom: 5px;
+    content: '';
+    height: 5px;
+    width: 100%;
+    background-color: #4fbad6;
+    z-index: -4;
+}
+
+.container_text{
+    padding: 20px 0;
+    line-height: 25px;
+    letter-spacing: 1px;
+    color: #9a9a9a;
+}
+
+.many_1{
+    position: relative;
+    z-index: 444;
+    color: #ccc;
+    font-weight: 400;
+}
+.container_many>h1{
+    padding-bottom: 30px;
+}
+.many_1::after{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    height: 3px;
+    content: "";
+    bottom: 16px;
+    background: #ccc;
+}
+.many_2{
+    font-weight: 400;
+}
+.many_3{
+    font-size: 14px;
+    font-weight: 100;
+    color: #9a9a9a;
+}
+.container_button{
+    padding: 15px 35px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    border-radius: 30px;
+    background-color: #1bbc9b;
+    border: none;
+}
+
+.colum_8{
+    width: 66.66667%;
+    padding-left: 35px;
+    padding-right: 20px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+/* css silider container =====================*/
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .css_ok{
+      position: absolute;
+      top: 10px;
+      
+  }
+  .css_ok>span{
+      width: 50px;
+      border-radius:0 ;
+      height: 5px;
+      background-color: #fff;
+     
+  }
+  .list_slider{
+      display: flex;
+      justify-content: center;
+      position: absolute;
+      bottom: -40px;
+    z-index: 4;
+}
+  
+  .list_slider-itime{
+      padding: 30px;
+      background-color: cyan;
+      position: relative;
+  }
+  .list_slider-xx::after{
+      content: '/';
+      position: absolute;
+      right: 0;
+      top: 28px;
+     font-size: 37px;  
+
+  }
